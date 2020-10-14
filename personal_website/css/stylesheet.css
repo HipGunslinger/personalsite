@@ -6,6 +6,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+#School_Head {
+    text-align: center;
+}
+
 nav {
     background-color: lightblue;
     text-align: center;
