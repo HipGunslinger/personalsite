@@ -13,4 +13,46 @@ body {
 nav {
     background-color: lightblue;
     text-align: center;
+    
+}
+
+nav a {
+    margin: 2px;
+    display: block;
+    text-align: center;
+}
+
+.courseSum {
+    border-color: lightgray solid;
+    border-bottom: solid 1px;
+    padding-bottom: 10px;
+}
+
+
+
+@media screen and (min-width:600px){
+
+    .courseList {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        
+    }
+    
+    .course {
+        border-color: lightgray solid;
+        border-bottom: solid 1px;
+    }
+    
+    .courseSum {
+        border-color: lightgray solid;
+        border-bottom: solid 1px;
+        
+    }
+
+    nav a {
+        margin: 12px;
+        background-color: lightblue;
+        text-align: center;
+        display: inline;
+    }
 }
